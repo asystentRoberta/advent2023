@@ -8,7 +8,7 @@ foreach ($file in $functionsFile) {
 }
 # ================================================== #
 
-[string[]]$arrayWithLinesFromFile = Get-Content -Path .\inputs\day1.txt
+[string[]]$arrayWithLinesFromFile = readLinesFromFileAndAddToArray .\inputs\day1.txt
 
 $charArray = @()
 $answer = 0
